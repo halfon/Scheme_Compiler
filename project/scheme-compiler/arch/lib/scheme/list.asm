@@ -1,0 +1,1 @@
+/* LIST.asm * Returns a list from the given arguments */ LIST:  PUSH(FP);  MOV(FP, SP);  PUSH(R1);    MOV(R1,FPARG(1));  INCR(R1);  MOV(R0,NIL_CONSTANT);    LIST_START:  CMP(R1,IMM(1));  JUMP_EQ(LIST_END);  PUSH(R0);  PUSH(FPARG(R1));  CALL(MAKE_SOB_PAIR);  DROP(2);  DECR(R1);  JUMP(LIST_START);  LIST_END:  POP(R1);  POP(FP);  RETURN;
