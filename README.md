@@ -42,4 +42,4 @@ this compiler is assuming input correctnes, if input is not valid result are not
 This project was built using Mayer Goldberg Assembly Architecture.
 
 =================================================================
-this project is copyright. you may use it for personal use only, and you must give credit to the Autor, meanning me (Chai Halfon), and Mayer Goldberg
+this project is copyright. you may use it for personal use only, and you must give credit to the Autor.
